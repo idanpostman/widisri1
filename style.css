@@ -1,0 +1,267 @@
+body {
+  background: #966f3c;
+}
+
+.jumbotron {
+  background-image: url(img/jumbotron-bg3.jpg);
+  background-size: cover;
+  height: 660px;
+  margin-top: -91.7px;
+}
+.display-4 {
+  text-align: center;
+  padding-top: 250px;
+  color: white;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-style: Poppins;
+}
+
+.display-4 span {
+  font-weight: 500;
+}
+
+.lead {
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.navbar-brand,
+.nav-link {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.navbar-brand {
+  font-family: Viga;
+  font-size: 44px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 30px;
+  color: #fff;
+  font-family: Viga;
+  font-size: 24px;
+}
+
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #fff;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+.btn-outline:hover {
+  color: black;
+}
+
+.btn-group {
+  margin-left: 425px;
+  font-family: Viga;
+}
+.btn-group label {
+  color: white;
+}
+.container h2 {
+  text-align: center;
+  color: #fff;
+  font-family: Viga;
+  padding-top: -100px;
+  font-size: 42px;
+  border-bottom: 2px solid #fff;
+  width: 30%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.div {
+  margin-top: -130px;
+}
+.card {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+  transition: transform 0.3s;
+}
+
+.text1 {
+  font-size: 13px;
+  color: #cbcbcb;
+}
+
+.info {
+  line-height: 17px;
+}
+
+.col-md-4 {
+  margin-top: 55px;
+  font-family: Poppins;
+}
+
+.cost span {
+  color: #ff7878;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.alpukat {
+  background: #c6d57e;
+}
+
+.kelapa {
+  background: #4aa96c;
+}
+
+.mangga {
+  background: #f3950d;
+}
+.nanas {
+  background: #ffe400;
+}
+.apel {
+  background: #ff1700;
+}
+.jeruk {
+  background: #ff8e00;
+}
+.mangga:hover,
+.kelapa:hover,
+.alpukat:hover {
+  opacity: 0.8;
+}
+
+.cursor {
+  cursor: pointer;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.container-about {
+  background: #966f3c;
+  margin-top: -124px;
+  height: 400px;
+}
+.about {
+  margin-top: 178px;
+  margin-left: 98px;
+}
+
+.about img {
+  border-radius: 20px;
+}
+
+.about h2 {
+  text-align: center;
+  font-family: Viga;
+  font-size: 42px;
+  color: #fff;
+  margin-bottom: 75px;
+  padding-right: 110px;
+}
+.about h3,
+p {
+  color: #fff;
+  font-family: Poppins;
+}
+
+.about h3 {
+  font-size: 32px;
+  font-weight: 650;
+  margin-top: 30px;
+}
+
+.about p {
+  font-weight: 150;
+}
+
+.lokasi {
+  display: flex;
+  align-items: center;
+}
+
+.lokasi i {
+  color: #fff;
+  font-size: 28px;
+  margin-right: 15px;
+}
+
+.lokasi span {
+  color: #fff;
+  font-style: italic;
+}
+.container-testimonial {
+  height: 500px;
+  background: #966f3c;
+}
+
+.container-testimonial h5 {
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 28px;
+  color: #fff;
+}
+
+.container-testimonial figure img.cadangan {
+  width: 70px;
+  margin: -150px 35px 10px;
+  opacity: 0.7;
+  transition: 0.2s linear;
+}
+
+.container-testimonial figure img.cadangan:hover {
+  width: 90px;
+  opacity: 1;
+}
+.container-testimonial figure img.utama {
+  width: 100px;
+  opacity: 1;
+}
+.container-testimonial figcaption h5 {
+  margin-top: -1px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.container-testimonial figcaption p {
+  color: #eadede;
+  font-style: italic;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.container-contact {
+  background: #966f3c;
+}
+.container-contact h2 {
+  color: #fff;
+  font-family: Viga;
+}
+form {
+  font-family: Poppins;
+  color: #fff;
+  border-radius: 5px;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  font-family: Poppins;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+footer p {
+  color: #111;
+}
