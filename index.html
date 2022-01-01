@@ -45,8 +45,7 @@
           data-bs-target="#navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+          aria-label="Toggle navigation" >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -55,13 +54,16 @@
               <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Product</a>
+              <a class="nav-link" href="#Product">Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#Location">Location</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -71,22 +73,11 @@
     <!-- Jumbotron -->
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4" data-aos="fade-up">
+        <h1 class="display-4" >
           We work <span>directly with farms</span><br />
           to bring you <span>fresh fruit</span>
         </h1>
         <p class="lead" data-aos="fade-up">Fresh, safe, easy and instan delivery</p>
-        <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group" data-aos="fade-up">
-          <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off" />
-          <label class="btn btn-outline" style="background-color: #966f3c" for="btncheck1"
-            ><i class="bi bi-telephone"></i> Whatsapp</label
-          >
-
-          <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off" />
-          <label class="btn btn-outline" style="background-color: #966f3c" for="btncheck2"
-            ><i class="bi bi-geo-alt"></i> Our Location</label
-          >
-        </div>
       </div>
       
     </div>
@@ -97,13 +88,13 @@
     <div class="container-card  ">
       
     <div class="div container mb-5 mt-10">
-      <h2 class=" mb-5" data-aos="fade-down">Product</h2>
+      <h2 class=" mb-5" data-aos="fade-down" id="Product">Product</h2>
       <div class="row">
         <!-- Card 1 -->
         <div class="col-md-4" data-aos="fade-down">
           <div class="card mt-3">
             <div class="product-1 align-items-center p-2 text-center">
-              <img src="img/5-2-avocado-png-hd.png" alt="" class="rounded" width="160" />
+              <img src="img/alpukat2321.png" alt="" class="rounded" width="160" />
               <h5>Alpukat</h5>
               <div class="mt-3 info">
                 <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
@@ -123,7 +114,7 @@
         <div class="col-md-4" data-aos="fade-down">
           <div class="card mt-3">
             <div class="product-1 align-items-center p-2 text-center">
-              <img src="img/5-2-avocado-png-hd.png" alt="" class="rounded" width="160" />
+              <img src="img/klapa.png" alt="" class="rounded" width="160" />
               <h5>Kelapa</h5>
               <div class="mt-3 info">
                 <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
@@ -143,7 +134,7 @@
               <div class="col-md-4" data-aos="fade-down">
                 <div class="card mt-3">
                   <div class="product-1 align-items-center p-2 text-center">
-                    <img src="img/5-2-avocado-png-hd.png" alt="" class="rounded" width="160" />
+                    <img src="img/mangga.png" alt="" class="rounded" width="160" />
                     <h5>Mangga</h5>
                     <div class="mt-3 info">
                       <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
@@ -163,7 +154,7 @@
                <div class="col-md-4" data-aos="fade-up">
                 <div class="card mt-3">
                   <div class="product-1 align-items-center p-2 text-center">
-                    <img src="img/5-2-avocado-png-hd.png" alt="" class="rounded" width="160" />
+                    <img src="img/nanasd.png" alt="" class="rounded" width="160" />
                     <h5>Nanas</h5>
                     <div class="mt-3 info">
                       <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
@@ -183,7 +174,7 @@
             <div class="col-md-4" data-aos="fade-up">
               <div class="card mt-3">
                 <div class="product-1 align-items-center p-2 text-center">
-                  <img src="img/5-2-avocado-png-hd.png" alt="" class="rounded" width="160" />
+                  <img src="img/Apel.png" alt="" class="rounded" width="160" />
                   <h5>Apel</h5>
                   <div class="mt-3 info">
                     <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
@@ -203,7 +194,7 @@
           <div class="col-md-4" data-aos="fade-up">
             <div class="card mt-3">
               <div class="product-1 align-items-center p-2 text-center">
-                <img src="img/5-2-avocado-png-hd.png" alt="" class="rounded" width="160" />
+                <img src="img/jeruk.png" alt="" class="rounded" width="160" />
                 <h5>Jeruk</h5>
                 <div class="mt-3 info">
                   <span class="text1 d-block">Lorem ipsum dolor sit amet.</span>
@@ -223,30 +214,52 @@
   </div>
     <!-- Akhir Product -->
 
+    <!-- Location -->
+    <div class="container-location">
+      <div class="row ">
+          <h2 id="Location">Location</h2>
+       <div class="col mt-8 maps" data-aos="fade-right">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.3496352949655!2d107.57275961427626!3d-6.
+          96801567016175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e8d5279f482d%3A0x4c620137f4509519!2sPasar%20SAYATI!
+          5e0!3m2!1sid!2sid!4v1640704221440!5m2!1sid!2sid" width="600" height="450" style="border:0;"
+           allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="col informasi me-5 " data-aos="fade-down">
+           <p>Layanan Pesan Antar <br> Hubungi :</p>
+           <div class="pesan-telepon text-white">
+              <i class="bi bi-telephone"></i>
+              <span>14042</span>
+           </div>
+           <div class="d-grid gap-2 col-6 mx-auto text-center whatsapp">
+             <span>Atau</span>
+            <button class="btn " type="button" style="background-color: #966f3c;"> <i class="bi bi-telephone"></i> Whatsapp</button>
+         </div>
+       </div>
+     </div>  
+    </div>
+    <!-- Akhir Location -->
+  
+
     <!-- About -->
-    <div class="container-about">
-    <div class="row about">
-      <h2 data-aos="fade-up">About</h2>
+   <div class="container-about">
+      <div class="row about ">
+      <h2 data-aos="fade-up" id="About">About</h2>
       <div class="col">
         <img src="img/about.jpg" alt="about" class="img-fluid" data-aos="fade-right">
-
-      </div>
-      <div class="col"  data-aos="fade-down">
-        <h3 >WIDISRI</h3>
-        <p> Lorem ipsum dolor,
+       </div>
+       <div class="col"  data-aos="fade-down">
+         <h3 >WIDISRI</h3>
+          <p> Lorem ipsum dolor,
            sit amet consectetur adipisicing elit. Optio ipsa <br> molestias quos placeat,
             impedit recusandae dolorum, numquam <br> rerum quis ullam, perferendis sint inventore laudantium nam <br> vel cum nisi illo
              quibusdam. Veritatis exercitationem sunt <br>laboriosam voluptatem pariatur, cumque, vel excepturi nemo <br>distinctio
               illum eius dolores nulla aperiam harum ratione iusto <br> quisquam accusantium similique? Ab doloribus dolores accusamus <br> 
               reprehenderit incidunt minus iusto ipsam tempore voluptas. Explicabo <br> natus quo sint asperiores aut maiores. Eaque itaque
                totam sequi <br>laboriosam perferendis sint inventore laudantium nam vel cum nisi <br> illo
-               quibusdam. Veritatis exercitationem sunt laboriosam.</p>
-               <div class="lokasi">
-                <i class="bi bi-geo-alt"></i>
-                <span>Pasar Sayati Indah Los A76, Kec Margahayu, Kab Bandung.</span>
-               </div>
-      </div>
+               quibusdam. Veritatis exercitationem sunt laboriosam.</p>               
+        </div>
     </div>
+
      <!-- AKhir About  -->
  <!-- Testimonial -->
 
@@ -282,7 +295,7 @@
     <div class="container-contact">
       <div class="row text-center">
         <div class="col">
-          <h2>Contact</h2>
+          <h2 id="Contact">Contact</h2>
         </div>
       </div>
       <div class="row justify-content-center">
